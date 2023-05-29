@@ -10,8 +10,6 @@
 		<string>logo</string>
 		<key>UIImageRespectsSafeAreaInsets</key>
 		<true/>
-		<key>UILaunchScreen</key>
-		<dict/>
 	</dict>
 </dict>
 </plist>

@@ -16,6 +16,8 @@
 		A5E8C6322A24BA2E0004DF7F /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5E8C62F2A24BA2E0004DF7F /* sound-rise.mp3 */; };
 		A5E8C6332A24BA2E0004DF7F /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5E8C6302A24BA2E0004DF7F /* sound-ding.mp3 */; };
 		A5E8C6342A24BA2E0004DF7F /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5E8C6312A24BA2E0004DF7F /* sound-tap.mp3 */; };
+		A5E8C6412A25075A0004DF7F /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E8C6402A25075A0004DF7F /* Constant.swift */; };
+		A5E8C6432A2510BE0004DF7F /* HideKeyBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E8C6422A2510BE0004DF7F /* HideKeyBoard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		A5E8C6302A24BA2E0004DF7F /* sound-ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-ding.mp3"; sourceTree = "<group>"; };
 		A5E8C6312A24BA2E0004DF7F /* sound-tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-tap.mp3"; sourceTree = "<group>"; };
 		A5E8C63B2A24BB9F0004DF7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A5E8C6402A25075A0004DF7F /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		A5E8C6422A2510BE0004DF7F /* HideKeyBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyBoard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 		A5E8C6372A24BA890004DF7F /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				A5E8C6422A2510BE0004DF7F /* HideKeyBoard.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -112,6 +117,7 @@
 		A5E8C6382A24BA9E0004DF7F /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				A5E8C6402A25075A0004DF7F /* Constant.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -207,7 +213,9 @@
 			files = (
 				A5E8C6262A24B8830004DF7F /* Persistence.swift in Sources */,
 				A5E8C6292A24B8830004DF7F /* SwiftUIToDo.xcdatamodeld in Sources */,
+				A5E8C6412A25075A0004DF7F /* Constant.swift in Sources */,
 				A5E8C61F2A24B87E0004DF7F /* ContentView.swift in Sources */,
+				A5E8C6432A2510BE0004DF7F /* HideKeyBoard.swift in Sources */,
 				A5E8C61D2A24B87E0004DF7F /* SwiftUIToDoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
